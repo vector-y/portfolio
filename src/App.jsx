@@ -7,21 +7,28 @@ const App = () => (
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           {/* gives full width */}
           <div className={`${styles.boxWidth}`}> 
-            Navbar
+            <Navbar />
           </div>
         </div>
 
         {/* hero section */}
         <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            Hero
+            <Hero />
           </div>
         </div>
 
         {/* stats section */}
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            Stats
+            <Stats />
+            <Business />
+            <Billing />
+            <CardDeal />
+            <Testimonials />
+            <Clients />
+            <CTA />
+            <Footer />
           </div>
         </div>
 
